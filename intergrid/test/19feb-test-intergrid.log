@@ -1,0 +1,17 @@
+# from: test-intergrid.py side=20
+# 19 Feb 2020 16:58z  ~bz/py/interpol/grid/test  Denis-iMac 10.10.5
+versions: numpy 1.18.1  scipy 1.4.1  umfpack 0.3.2  python 3.7.6  mac 10.10.5 
+
+================================================================================
+versions: numpy 1.18.1  scipy 1.4.1  python 3.7.6
+test-intergrid.py  shape [20, 20, 20]  nquery 1000000
+
+ 168 ms  |Intergrid - exact|  cos_xav  order 1: av 0.51  max 1.1 = -249 - -250  at [0.24 0.66 0.61] 
+ 321 ms  |Intergrid - exact|  cos_xav  order 2: av 0.92  max 13 = -7.86 - 5.03  at [1 0.26 1] 
+
+ 169 ms  |Intergrid - exact|  volripple  order 1: av 3  max 9.5 = 47.6 - 57.1  at [0.23 0.97 0.046] 
+ 319 ms  |Intergrid - exact|  volripple  order 2: av 3.8  max 10 = 49.7 - 60  at [0.22 0.97 4.7e-05] 
+
+ 169 ms  |Intergrid - exact|  parabola  order 1: av 0.26  max 0.38 = -383 - -384  at [0.39 0.61 0.079] 
+ 321 ms  |Intergrid - exact|  parabola  order 2: av 0.45  max 13 = -23.9 - -10.4  at [1 0.98 1] 
+1.97 real time  2.10 user  0.15 sys  114% cpu

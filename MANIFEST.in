@@ -1,0 +1,7 @@
+include README.md
+include LICENSE.BSD
+include pyproject.toml
+include changelog.txt
+
+include intergrid/test/*.py
+include intergrid/test/*.log

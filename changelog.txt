@@ -1,0 +1,11 @@
+## 2013-06-04 Jun  prefilter Bspline / exact-fit / M-N
+    https://github.com/denis-bz/interpol.git is unchanged:
+    intergrid/* barypol/* and test/* .
+
+## 2020-02-20 Feb
+    https://github.com/denis-bz/intergrid.git: intergrid/* and test/*, dropped barypol.
+    Minor mods for Python3.
+	BSD-3 license
+    (I'm trying to get `pypi install [--user / --prefix <dir>] intergrid` to work,
+	no fun at all.)
+
